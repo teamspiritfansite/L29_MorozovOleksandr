@@ -7,7 +7,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 
 
-DATA_FILE = Path(__file__).parents[1] / "data" / "users.csv"
+DATA_FILE = Path(__file__).parents[2] / "data" / "users.csv"
 
 
 def load_users():
